@@ -1,0 +1,40 @@
+---
+description: "Show all hype-forge commands and usage guide"
+allowed-tools: [Read, Glob, Grep]
+---
+
+The user invoked `/hype-forge:hype-forge`. This is the main entry point.
+
+**Do not route or parse subcommands.** Instead, display the available commands:
+
+```
+Hype Forge — Available Commands
+
+Content Strategy:
+  /hype-forge:plan                          Analyze project and plan a content series
+  /hype-forge:plan --goal "launch week"     Plan with a specific goal
+
+Content Creation:
+  /hype-forge:draft --platform devto        Generate a Dev.to draft
+  /hype-forge:draft --platform hashnode     Generate a Hashnode draft
+  /hype-forge:draft --platform hn           Generate a Hacker News post
+  /hype-forge:draft --platform reddit       Generate a Reddit post
+  /hype-forge:draft --platform x-article    Generate an X.com article
+  /hype-forge:draft --platform x-thread     Generate an X.com thread
+
+Content Enhancement:
+  /hype-forge:code [path or snippet]        Transform code into narrative explanation
+  /hype-forge:visual [path to draft]        Suggest GIFs, images, and diagrams
+
+Quality & Review:
+  /hype-forge:roast [path to draft]         Critique draft as community readers
+```
+
+If the user provided arguments ($ARGUMENTS), suggest the correct command. For example:
+- `plan` → suggest `/hype-forge:plan`
+- `plan --goal "launch"` → suggest `/hype-forge:plan --goal "launch"`
+- `draft --platform devto` → suggest `/hype-forge:draft --platform devto`
+- `code src/main.ts` → suggest `/hype-forge:code src/main.ts`
+- `roast drafts/post.md` → suggest `/hype-forge:roast drafts/post.md`
+- `visual drafts/post.md` → suggest `/hype-forge:visual drafts/post.md`
+- (no args) → display the command list above
