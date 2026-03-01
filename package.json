@@ -1,0 +1,18 @@
+{
+  "name": "hype-forge",
+  "version": "0.1.0",
+  "description": "Technical Evangelist & Growth Skill — transform code and projects into high-impact content for developer platforms.",
+  "keywords": [
+    "marketing",
+    "developer-advocacy",
+    "growth-engineering",
+    "content-strategy",
+    "technical-writing"
+  ],
+  "author": {
+    "name": "tercel",
+    "url": "https://github.com/tercel"
+  },
+  "repository": "https://github.com/tercel/hype-forge",
+  "license": "MIT"
+}
