@@ -28,7 +28,7 @@ Brainstorms a multi-platform content strategy based on the project's current sta
 - **Idea 1 (The Hook/Announcement)**: "Why I built [Product]" or "Introducing [Product]: A new way to [Task]".
 - **Idea 2 (Technical Deep Dive)**: "How we achieved [Metric] using [Tech]" or "Architecture breakdown of [Product]".
 - **Idea 3 (The Tutorial)**: "Building a [Example App] with [Product] in 10 minutes".
-- **Idea 4 (The Growth/Hype)**: "I Discoverd [Product] - Here's how it changed my workflow".
+- **Idea 4 (The Growth/Hype)**: "I Discovered [Product] - Here's how it changed my workflow".
 
 #### 3. Schedule Suggestion
 - **Day 1**: Launch on X (Thread) + Dev.to.
