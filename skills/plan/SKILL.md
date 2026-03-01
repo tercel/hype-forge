@@ -10,12 +10,12 @@ description: >
 
 This skill focuses on analyzing a technical project and planning a high-impact content series for its promotion.
 
-## Command: `hype-forge:plan`
+## Command: `/hype-forge:plan`
 
 Brainstorms a multi-platform content strategy based on the project's current state.
 
 ### Usage:
-`hype-forge:plan [--goal goal]`
+`/hype-forge:plan [--goal goal]`
 
 ### Planning Logic:
 

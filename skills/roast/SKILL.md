@@ -10,12 +10,12 @@ description: >
 
 This skill focuses on refining and critiquing technical drafts by simulating real-world developer community feedback.
 
-## Command: `hype-forge:roast`
+## Command: `/hype-forge:roast`
 
 Critiques a draft or an idea, acting as a skeptical but fair developer.
 
 ### Usage:
-`hype-forge:roast [path to draft]`
+`/hype-forge:roast [path to draft]`
 
 ### Personalities for Roasting:
 

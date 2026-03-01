@@ -9,12 +9,12 @@ description: >
 
 This skill focuses on generating high-quality technical drafts for various developer platforms.
 
-## Command: `hype-forge:draft`
+## Command: `/hype-forge:draft`
 
 Generates a platform-specific draft based on the project context (README, source code, and tech stack).
 
 ### Usage:
-`hype-forge:draft --platform [devto | hashnode | hn | reddit | x-article | x-thread]`
+`/hype-forge:draft --platform [devto | hashnode | hn | reddit | x-article | x-thread]`
 
 ### Platform Logic:
 

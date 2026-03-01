@@ -11,7 +11,7 @@ Transform raw code into a compelling narrative for developer audiences.
 
 ## Usage
 
-`hype-forge:code [path to file or snippet]`
+`/hype-forge:code [path to file or snippet]`
 
 ## Workflow
 

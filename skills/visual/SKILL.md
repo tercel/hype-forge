@@ -11,7 +11,7 @@ Enhance technical drafts with strategic visual element suggestions.
 
 ## Usage
 
-`hype-forge:visual [path to draft]`
+`/hype-forge:visual [path to draft]`
 
 ## Workflow
 
