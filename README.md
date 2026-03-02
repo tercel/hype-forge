@@ -6,7 +6,7 @@ A Claude Code skill designed to help developers transform their code and project
 
 | Command | Description |
 |---|---|
-| `/hype-forge:plan` | Strategize your content launch |
+| `/hype-forge:strategy` | Strategize your content launch |
 | `/hype-forge:report` | Generate a high-authority technical investment/audit report |
 | `/hype-forge:draft` | Generate platform-specific articles and threads |
 | `/hype-forge:code` | Turn raw snippets into narrative-driven explanations |
@@ -27,7 +27,7 @@ A Claude Code skill designed to help developers transform their code and project
 
 ```
 1.  /hype-forge:report            # Deep technical audit for investors/leads
-2.  /hype-forge:plan              # Analyze project, plan content series
+2.  /hype-forge:strategy           # Analyze project, plan content series
 3.  /hype-forge:draft --platform devto   # Generate first draft
 4.  /hype-forge:roast              # Polish before posting
 ```
@@ -61,14 +61,14 @@ Generate a deep-dive technical analysis report for developers, tech leads, and i
 
 ---
 
-### `/hype-forge:plan`
+### `/hype-forge:strategy`
 
 Analyze a project and plan a multi-platform content series.
 
 **Usage**
 
 ```
-/hype-forge:plan [--goal goal]
+/hype-forge:strategy [--goal goal]
 ```
 
 **Workflow**
@@ -88,7 +88,7 @@ Analyze a project and plan a multi-platform content series.
 **Example**
 
 ```
-/hype-forge:plan --goal "launch awareness for my new CLI tool"
+/hype-forge:strategy --goal "launch awareness for my new CLI tool"
 ```
 
 ---

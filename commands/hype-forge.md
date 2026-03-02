@@ -16,8 +16,8 @@ Deep Analysis:
   /hype-forge:report --audience tech-lead   Report tailored for tech leads
 
 Content Strategy:
-  /hype-forge:plan                          Analyze project and plan a content series
-  /hype-forge:plan --goal "launch week"     Plan with a specific goal
+  /hype-forge:strategy                          Analyze project and plan a content series
+  /hype-forge:strategy --goal "launch week"     Plan with a specific goal
 
 Content Creation:
   /hype-forge:draft --platform devto        Generate a Dev.to draft
@@ -38,8 +38,8 @@ Quality & Review:
 If the user provided arguments ($ARGUMENTS), suggest the correct command. For example:
 - `report` → suggest `/hype-forge:report`
 - `report --audience investor` → suggest `/hype-forge:report --audience investor`
-- `plan` → suggest `/hype-forge:plan`
-- `plan --goal "launch"` → suggest `/hype-forge:plan --goal "launch"`
+- `plan` → suggest `/hype-forge:strategy`
+- `plan --goal "launch"` → suggest `/hype-forge:strategy --goal "launch"`
 - `draft --platform devto` → suggest `/hype-forge:draft --platform devto`
 - `code src/main.ts` → suggest `/hype-forge:code src/main.ts`
 - `roast drafts/post.md` → suggest `/hype-forge:roast drafts/post.md`

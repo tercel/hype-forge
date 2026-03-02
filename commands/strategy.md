@@ -4,6 +4,6 @@ argument-hint: "[--goal goal]"
 allowed-tools: [Read, Glob, Grep, Write, AskUserQuestion]
 ---
 
-Invoke the hype-forge:plan skill and follow it exactly as presented to you.
+Invoke the hype-forge:strategy skill and follow it exactly as presented to you.
 
 The user invoked this command with: $ARGUMENTS

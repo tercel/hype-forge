@@ -1,21 +1,21 @@
 ---
-name: plan
+name: strategy
 description: >
   Analyze a technical project and plan a multi-platform content series for its promotion.
   Scans README, source code, and tech stack to generate content ideas and a publishing schedule
   across Dev.to, Hashnode, X.com, Hacker News, and Reddit.
 ---
 
-# Hype-Forge — Plan
+# Hype-Forge — Strategy
 
 This skill focuses on analyzing a technical project and planning a high-impact content series for its promotion.
 
-## Command: `/hype-forge:plan`
+## Command: `/hype-forge:strategy`
 
 Brainstorms a multi-platform content strategy based on the project's current state.
 
 ### Usage:
-`/hype-forge:plan [--goal goal]`
+`/hype-forge:strategy [--goal goal]`
 
 ### Planning Logic:
 
