@@ -10,6 +10,11 @@ The user invoked `/hype-forge:hype-forge`. This is the main entry point.
 ```
 Hype Forge — Available Commands
 
+Deep Analysis:
+  /hype-forge:report                        Deep technical analysis report
+  /hype-forge:report --audience investor    Report tailored for investors
+  /hype-forge:report --audience tech-lead   Report tailored for tech leads
+
 Content Strategy:
   /hype-forge:plan                          Analyze project and plan a content series
   /hype-forge:plan --goal "launch week"     Plan with a specific goal
@@ -31,6 +36,8 @@ Quality & Review:
 ```
 
 If the user provided arguments ($ARGUMENTS), suggest the correct command. For example:
+- `report` → suggest `/hype-forge:report`
+- `report --audience investor` → suggest `/hype-forge:report --audience investor`
 - `plan` → suggest `/hype-forge:plan`
 - `plan --goal "launch"` → suggest `/hype-forge:plan --goal "launch"`
 - `draft --platform devto` → suggest `/hype-forge:draft --platform devto`

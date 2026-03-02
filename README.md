@@ -7,6 +7,7 @@ A Claude Code skill designed to help developers transform their code and project
 | Command | Description |
 |---|---|
 | `/hype-forge:plan` | Strategize your content launch |
+| `/hype-forge:report` | Generate a high-authority technical investment/audit report |
 | `/hype-forge:draft` | Generate platform-specific articles and threads |
 | `/hype-forge:code` | Turn raw snippets into narrative-driven explanations |
 | `/hype-forge:roast` | Get skeptical feedback to refine your content |
@@ -25,14 +26,40 @@ A Claude Code skill designed to help developers transform their code and project
 ## Getting Started
 
 ```
-1.  /hype-forge:plan              # Analyze project, plan content series
-2.  /hype-forge:draft --platform devto   # Generate first draft
-3.  /hype-forge:roast              # Polish before posting
+1.  /hype-forge:report            # Deep technical audit for investors/leads
+2.  /hype-forge:plan              # Analyze project, plan content series
+3.  /hype-forge:draft --platform devto   # Generate first draft
+4.  /hype-forge:roast              # Polish before posting
 ```
 
 ---
 
 ## Command Reference
+
+### `/hype-forge:report`
+
+Generate a deep-dive technical analysis report for developers, tech leads, and investors.
+
+**Usage**
+
+```
+/hype-forge:report [--audience investor|tech-lead|dev-community]
+```
+
+**Workflow**
+
+1.  **Technical Audit** — Scans architecture, core patterns, and engineering quality.
+2.  **Market Comparison** — Identifies 3-5 competitors and generates a feature-parity matrix.
+3.  **Value Mapping** — Translates technical features (e.g., "W3C Traceability") into business value (e.g., "Enterprise Compliance").
+4.  **Growth Analysis** — Evaluates ecosystem potential and integration opportunities.
+
+**Example**
+
+```
+/hype-forge:report --audience investor
+```
+
+---
 
 ### `/hype-forge:plan`
 
