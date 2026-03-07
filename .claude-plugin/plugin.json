@@ -1,10 +1,12 @@
 {
   "name": "hype-forge",
   "description": "Technical Evangelist & Growth Skill — transform code and projects into high-impact content for developer platforms (Dev.to, Hashnode, X.com, Hacker News, Reddit).",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "author": {
     "name": "tercel",
-    "url": "https://github.com/tercel"
+    "email": "tercel.yi@gmail.com",
+    "url": "https://github.com/tercel",
+    "x": "https://x.com/tercelyi"
   },
   "license": "MIT",
   "keywords": [
